@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# todo
+# use file check to determine if a function is needed
+# use width check or append 00* to all
+
 decomp()
 {
 	xz -df *xz
@@ -17,12 +21,12 @@ append()
 	done
 }
 
-the_order_of_these_patches_dont_make_any_sense_why_did_they_name_them_like_this()
+the_order_of_these_patches_could_be_better()
 {
-	for (( wtf=1; wtf<10; wtf++ )); do
-		rename ".${wtf}-" ".0${wtf}-" *
+	for (( checkfor3digits=1; checkfor3digits<10; checkfor3digits++ )); do
+		rename ".${checkfor3digits}-" ".0${checkfor3digits}-" *
 	done
 }
 
 decomp && remove && append
-the_order_of_these_patches_dont_make_any_sense_why_did_they_name_them_like_this
+the_order_of_these_patches_could_be_better
