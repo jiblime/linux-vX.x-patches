@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 4bad77aa54c5..af4d0d6f5b6f 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,7 +1,7 @@
+ # SPDX-License-Identifier: GPL-2.0
+ VERSION = 5
+ PATCHLEVEL = 2
+-SUBLEVEL = 20
++SUBLEVEL = 21
+ EXTRAVERSION =
+ NAME = Bobtail Squid
+ 
